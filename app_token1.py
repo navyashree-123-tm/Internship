@@ -94,3 +94,4 @@ def remove_file(file_id):
         log_message['status'] = 'successful'
         app.logger.info(log_message)
         return "", 200
+    ,
